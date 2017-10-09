@@ -1,0 +1,35 @@
+# nginx
+log/
+sockets/
+
+# Python and Django
+*.pyc
+__pycache__/
+backups/
+media/
+static/
+venv/
+
+# Environment files
+stockphotos/settings/*
+!stockphotos/settings/base.py
+!stockphotos/settings/env.py
+!stockphotos/settings/env.yml.TEMPLATE
+
+# vim
+.*.sw*
+
+# IDE
+.idea
+
+# DB
+/*.*sql
+
+# Shell
+*.sh
+*.*tar*
+
+.coverage
+*.log
+*.csv
+

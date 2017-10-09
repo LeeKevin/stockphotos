@@ -1,0 +1,55 @@
+$fa-font-path: '~font-awesome/fonts';
+@import "~font-awesome/scss/font-awesome";
+
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  min-width: 320px;
+}
+
+body {
+  padding-top: 1px; // Prevent collapsing margins on top
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  color: #575757;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: all .2s ease;
+
+  &:hover {
+    color: #AAA;
+  }
+}
+
+.loading-cursor {
+  cursor: wait;
+}
+
+.montserrat {
+  font-family: "Montserrat", Arial, sans-serif;
+}
+
+.playfair {
+  font-family: 'Playfair Display', serif;
+}

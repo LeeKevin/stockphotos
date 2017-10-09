@@ -1,0 +1,5 @@
+# This list of apps will be loaded into the application definition list in settings (`settings.base`)
+# and will be loaded into `urls`. Add your application directly to the application definition list if you do not want
+# urls loaded.
+
+apps:

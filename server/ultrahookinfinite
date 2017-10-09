@@ -1,0 +1,6 @@
+#!/bin/bash
+#
+#
+while [ 1 ]; do
+ultrahook stripe 8000
+done

@@ -1,0 +1,21 @@
+# nginx
+log/
+sockets/
+
+# vim
+.*.sw*
+
+# IDE
+.idea
+
+# DB
+/*.*sql
+
+# Shell
+*.sh
+*.*tar*
+
+*.log
+*.csv
+
+node_modules/
